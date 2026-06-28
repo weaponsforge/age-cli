@@ -89,7 +89,7 @@ Decrypts a `.age` file in the `/vault` directory and restores the original file.
 **Usage**:
 
 ```sh
-./scripts/dencrypt.sh hello.txt.age
+./scripts/decrypt.sh hello.txt.age
 ```
 
 **Output**:
