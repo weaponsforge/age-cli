@@ -1,0 +1,6 @@
+.git
+.gitignore
+*.age
+*.md
+*.txt
+Dockerfile
