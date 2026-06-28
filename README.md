@@ -20,7 +20,7 @@ docker build -t age-cli .
 
 This creates a `key.txt` file inside the `/vault` directory.
 
-> 💡 **NOTE**:
+> 💡 **NOTE**:<br>
 > Run this script only once, and only if you don't already have a `key.txt` file.<br>
 > If you already have an existing `key.txt`, skip to **Step 3**.
 
@@ -82,7 +82,7 @@ age-cli/
     └── hello.txt.age ✅
 ```
 
-### decrypt.sh`
+### decrypt.sh
 
 Decrypts a `.age` file in the `/vault` directory and restores the original file.
 
