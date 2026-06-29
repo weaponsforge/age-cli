@@ -8,6 +8,10 @@ A Docker image and wrapper scripts for encrypting and decrypting files using [ag
 - **Windows:** Git Bash
 - **Linux:** Bash
 
+## 🧑‍🤝‍🧑 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
+
 ## 🛠️ Initialization
 
 #### 1. Build the Docker image
