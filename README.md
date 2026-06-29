@@ -44,13 +44,13 @@ Copy any files you want to encrypt or decrypt into the `/vault` directory.
 
 #### 5. Run the appropriate script
 
-See [Available Scripts](#available-scripts).
+See [Available Scripts](#-available-scripts).
 
 <br>
 
 ## 📜 Available Scripts
 
-### keygen.sh
+### 🟠 `keygen.sh`
 
 Generates an age public/private key pair and saves it as `key.txt` in the `/vault` directory.
 
@@ -60,7 +60,7 @@ Generates an age public/private key pair and saves it as `key.txt` in the `/vaul
 ./scripts/keygen.sh
 ```
 
-### encrypt.sh
+### 🟠 `encrypt.sh`
 
 Encrypts a file in the `/vault` directory and creates a corresponding `.age` file.
 
@@ -82,7 +82,7 @@ age-cli/
     └── hello.txt.age ✅
 ```
 
-### decrypt.sh
+### 🟠 `decrypt.sh`
 
 Decrypts a `.age` file in the `/vault` directory and restores the original file.
 
@@ -112,6 +112,21 @@ age-cli/
     └── hello.txt.age
 ```
 
+### 🟠 `info.sh`
+
+Displays the host system information.
+
+```sh
+./scripts/info.sh
+```
+
+**Output**:
+
+```text
+Platform: MINGW64_NT-10.0-26200
+Arch:     x86_64
+Bash:     4.4.23(1)-release
+```
 
 @weaponsforge<br>
 20260628
