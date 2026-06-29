@@ -1,4 +1,4 @@
-# Contributing
+# Contribution Guidelines
 
 Thank you for your interest in contributing to **age-cli**! Contributions of all kinds are welcome, including bug fixes, documentation improvements, and new features.
 
@@ -26,8 +26,6 @@ git clone https://github.com/yourusername/age-cli.git
 ```sh
 git remote add upstream https://github.com/weaponsforge/age-cli.git
 ```
-
----
 
 ## Making Changes
 
@@ -63,8 +61,6 @@ git add .
 git commit -m "Add support for ..."
 ```
 
----
-
 ## Keeping Your Fork Up to Date
 
 ```sh
@@ -76,9 +72,7 @@ git push origin main
 
 If the project's default branch changes (for example, to `dev`), use that branch instead.
 
----
-
-## Submitting a Pull Request
+## Submitting Contributions
 
 1. Push your feature branch.
 
@@ -95,8 +89,6 @@ If the project's default branch changes (for example, to `dev`), use that branch
    - Any relevant issue references.
 
 4. Be responsive to review feedback and update your PR as needed.
-
----
 
 ## Contribution Guidelines
 
