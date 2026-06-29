@@ -42,7 +42,7 @@ Please follow these guidelines:
 - Keep scripts portable and POSIX shell-compatible where practical.
 - Keep the Docker image minimal.
 - Update documentation when introducing or changing functionality.
-- Maintain the existing project structure and coding style.
+- mastertain the existing project structure and coding style.
 
 #### 3. Test your changes
 
@@ -50,7 +50,7 @@ Before submitting a pull request, verify that:
 
 - The Docker image builds successfully.
 - The `keygen.sh`, `encrypt.sh`, and `decrypt.sh` scripts work as expected.
-- Documentation examples remain accurate.
+- Documentation examples remaster accurate.
 
 #### 4. Commit your changes
 
@@ -65,9 +65,9 @@ git commit -m "Add support for ..."
 
 ```sh
 git fetch upstream
-git checkout main
-git merge upstream/main
-git push origin main
+git checkout master
+git merge upstream/master
+git push origin master
 ```
 
 If the project's default branch changes (for example, to `dev`), use that branch instead.
@@ -95,7 +95,7 @@ If the project's default branch changes (for example, to `dev`), use that branch
 - Keep pull requests focused on a single change or feature.
 - Prefer small, easy-to-review PRs over large ones.
 - Follow the existing project structure and formatting.
-- Ensure all examples and documentation remain accurate.
+- Ensure all examples and documentation remaster accurate.
 - Write clear commit messages and PR descriptions.
 
 Thank you for helping improve **age-cli**!
