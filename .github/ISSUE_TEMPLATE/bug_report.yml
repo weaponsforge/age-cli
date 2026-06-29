@@ -1,0 +1,65 @@
+name: Bug Report
+description: Create a bug report
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new issue:
+
+        - Do a search of existing issues.
+        - Pull the latest updates from this repository's `master` branch.
+
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: A step-by-step description of how to reproduce the issue, or a link to the reproducible repository.
+      placeholder: |
+        1. Run the keygen.sh script
+        2. Press enter
+        3. An error appears: "age-keygen: error: failed to open output file "key.txt": open key.txt: file exists"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Current vs. Expected behavior
+      description: A clear and concise description of what the bug is, and what you expected to happen.
+      placeholder: 'Following the steps from the previous section, I expected A to happen, but I observed B instead'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Provide environment information
+      description: run `./scripts/info.sh` from the root directory of your project and paste the results.
+      render: bash
+      placeholder: |
+        Platform: MINGW64_NT-10.0-26200
+        Arch:     x86_64
+        Bash:     4.4.23(1)-release
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Which area(s) are affected? (Select all that apply)
+      multiple: true
+      options:
+        - 'Not sure'
+        - 'Docker setup'
+        - 'Scripts usage'
+        - 'Key generation'
+        - 'File encryption'
+        - 'File decryption'
+        - 'Others'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: |
+        Any extra information that might help us investigate.
+      placeholder: |
+        I tested my reproduction against different `age-cli` releases, and the first one that introduced the bug was "v1.0.1", since reverting to "v1.0.0" works.
